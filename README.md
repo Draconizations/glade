@@ -78,7 +78,7 @@ Rename the `com.example.modtemplate` package in
 
 Rename these files to match your `mod.id`:
 
-* `src/main/resources/modtemplate.mixins.json`
+* `src/main/resources/glade.mixins.json`
 
 Replace `src/main/resources/assets/icon.png` and `.idea/icon.png` with your mod's icon.
 
