@@ -12,13 +12,13 @@
     },
     {
       "type": "minecraft:noise_threshold_count",
-      "above_noise": 4,
-      "below_noise": 12,
-      "noise_level": -0.5
+      "above_noise": 2,
+      "below_noise": 6,
+      "noise_level": -0.6
     },
     {
       "type": "minecraft:rarity_filter",
-      "chance": 24
+      "chance": 32
     },
     {
       "type": "minecraft:in_square"
