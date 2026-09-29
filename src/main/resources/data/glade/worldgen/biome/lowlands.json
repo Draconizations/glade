@@ -75,6 +75,7 @@
       "glade:lowlands/sparse/trees",
       "glade:lowlands/forest/trees_oak",
       "glade:lowlands/forest/trees_birch",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane"
