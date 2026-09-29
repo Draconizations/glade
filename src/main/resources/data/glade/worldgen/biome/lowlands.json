@@ -72,9 +72,12 @@
     ],
     [
       "minecraft:glow_lichen",
+      "glade:lowlands/field/nettles",
+      "glade:lowlands/field/tall_grass",
       "glade:lowlands/sparse/trees",
       "glade:lowlands/forest/trees_oak",
       "glade:lowlands/forest/trees_birch",
+      "glade:lowlands/forest/nettles",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
