@@ -1,0 +1,60 @@
+{
+  "preset": "minecraft:overworld",
+  "lithostitched:biomes": [
+    {
+      "parameters": {
+        "weirdness": [
+          -1,
+          1
+        ],
+        "continentalness": [
+          -1.2,
+          -0.455
+        ],
+        "erosion": [
+          -1,
+          -0.78
+        ],
+        "temperature": [
+          -1,
+          1
+        ],
+        "humidity": [
+          -1,
+          1
+        ],
+        "depth": [
+          -0.005,
+          1
+        ],
+        "offset": 0
+      },
+      "biome": "minecraft:ocean"
+    },
+    {
+      "parameters": {
+        "weirdness": [
+          -1, 1
+        ],
+        "continentalness": [
+          -0.2, 1
+        ],
+        "erosion": [
+          0.05, 1
+        ],
+        "temperature": [
+          -1, 1
+        ],
+        "humidity": [
+          -1, 1
+        ],
+        "depth": [
+          -0.005,
+          1
+        ],
+        "offset": 0
+      },
+      "biome": "glade:lowlands"
+    }
+  ]
+}
