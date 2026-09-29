@@ -82,7 +82,7 @@
       "glade:lowlands/field/poppy",
       "glade:lowlands/field/cornflower",
       "glade:lowlands/forest/nettles",
-      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane"
