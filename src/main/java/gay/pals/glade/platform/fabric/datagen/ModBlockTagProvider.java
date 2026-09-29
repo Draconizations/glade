@@ -18,6 +18,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 	protected void addTags(HolderLookup.Provider wrapperLookup) {
 		getOrCreateTagBuilder(BlockTags.REPLACEABLE).add(ModBlocks.NETTLE, ModBlocks.LARGE_NETTLE);
 		getOrCreateTagBuilder(BlockTags.REPLACEABLE_BY_TREES).add(ModBlocks.NETTLE, ModBlocks.LARGE_NETTLE);
+		getOrCreateTagBuilder(BlockTags.INSIDE_STEP_SOUND_BLOCKS).add(ModBlocks.CLOVERS);
 	}
 }
 //?}

@@ -10,7 +10,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.minecraft.client.renderer.RenderType;
 
-import static gay.pals.glade.registry.ModBlocks.GRASS_TINTED_BLOCKS;
+import static gay.pals.glade.registry.ModBlocks.CUTOUT_BLOCKS;
 
 @Entrypoint("client")
 public class FabricClientEntrypoint implements ClientModInitializer {
@@ -21,7 +21,7 @@ public class FabricClientEntrypoint implements ClientModInitializer {
 
 		ModColorProvider.registerBlockColors(ColorProviderRegistry.BLOCK::register);
 		ModColorProvider.registerItemColors(ColorProviderRegistry.ITEM::register);
-		GRASS_TINTED_BLOCKS.forEach((block) -> BlockRenderLayerMap.INSTANCE.putBlock(block, RenderType.cutout()));
+		CUTOUT_BLOCKS.forEach((block) -> BlockRenderLayerMap.INSTANCE.putBlock(block, RenderType.cutout()));
 	}
 
 }

@@ -18,6 +18,8 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
 	public void generateTranslations(HolderLookup.Provider holderLookup, TranslationBuilder translationBuilder) {
 		translationBuilder.add(ModBlocks.NETTLE, "Nettle");
 		translationBuilder.add(ModBlocks.LARGE_NETTLE, "Large Nettle");
+		translationBuilder.add(ModBlocks.CLOVERS, "Clovers");
+
 		translationBuilder.add("itemGroup.glade.main_group", "Glade");
 	}
 }

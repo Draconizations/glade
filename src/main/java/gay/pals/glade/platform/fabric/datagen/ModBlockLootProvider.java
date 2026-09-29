@@ -19,6 +19,7 @@ public class ModBlockLootProvider extends FabricBlockLootTableProvider {
 	public void generate() {
 		add(ModBlocks.NETTLE, BlockLootSubProvider.createShearsOnlyDrop(ModItems.NETTLE));
 		add(ModBlocks.LARGE_NETTLE, this::createDoublePlantShearsDrop);
+		add(ModBlocks.CLOVERS, this.createPetalsDrops(ModBlocks.CLOVERS));
 	}
 }
 //?}

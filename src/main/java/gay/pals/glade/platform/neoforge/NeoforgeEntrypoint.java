@@ -17,7 +17,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import net.neoforged.neoforge.registries.RegisterEvent;
 
-import static gay.pals.glade.registry.ModBlocks.GRASS_TINTED_BLOCKS;
+import static gay.pals.glade.registry.ModBlocks.CUTOUT_BLOCKS;
 
 @Mod(Glade.MOD_ID)
 public class NeoforgeEntrypoint {
@@ -41,7 +41,7 @@ public class NeoforgeEntrypoint {
 	}
 
 	public static void onClientSetup(FMLClientSetupEvent event) {
-		GRASS_TINTED_BLOCKS.forEach((block) -> ItemBlockRenderTypes.setRenderLayer(block, RenderType.cutout()));
+		CUTOUT_BLOCKS.forEach((block) -> ItemBlockRenderTypes.setRenderLayer(block, RenderType.cutout()));
 	}
 }
 *///?}
