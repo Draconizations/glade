@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/tinted_cross",
   "textures": {
-    "cross": "glade:block/tall_nettle_bottom"
+    "cross": "glade:block/large_nettle_top"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "glade:block/tall_nettle_top"
+    "layer0": "glade:block/large_nettle_top"
   }
 }

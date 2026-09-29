@@ -22,7 +22,7 @@ public class ModBlocks {
 
 	// PLANTS
 	public static NettleBlock NETTLE = registerGrassTintedBlock("nettle", NettleBlock::new, BlockBehaviour.Properties.ofFullCopy(Blocks.SHORT_GRASS));
-	public static LargeNettleBlock LARGE_NETTLE = registerGrassTintedBlock("tall_nettle", LargeNettleBlock::new, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS));
+	public static LargeNettleBlock LARGE_NETTLE = registerGrassTintedBlock("large_nettle", LargeNettleBlock::new, BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS));
 
 	public static <T extends Block> T registerGrassTintedBlock(String id, Function<BlockBehaviour.Properties, T> factory, BlockBehaviour.Properties settings) {
 		var entry = registerBlock(id, factory, settings);
