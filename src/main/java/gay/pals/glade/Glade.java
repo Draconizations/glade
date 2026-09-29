@@ -47,18 +47,10 @@ public class Glade {
 	}
 
 	public static ResourceLocation id(String path) {
-		//? > 1.19.2 {
 		return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
-		 //?} <= 1.19.2 {
-		/*return new ResourceLocation(MOD_ID, path);
-		*///?}
 	}
 
 	public static ResourceLocation id(String namespace, String path) {
-		//? > 1.19.2 {
 		return ResourceLocation.fromNamespaceAndPath(namespace, path);
-		 //?} <= 1.19.2 {
-		/*return new ResourceLocation(namespace, path);
-		*///?}
 	}
 }
