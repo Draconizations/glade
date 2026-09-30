@@ -7,7 +7,7 @@
         "type": "lithostitched:sample_density",
         "density_function": "glade:vegetation",
         "min_inclusive": -0.6,
-        "max_inclusive": 0.3
+        "max_inclusive": 0.2
       }
     },
     {
