@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "glade:block/foxglove_bottom"
+    },
+    "half=upper": {
+      "model": "glade:block/foxglove_top"
+    }
+  }
+}

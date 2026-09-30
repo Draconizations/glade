@@ -19,7 +19,10 @@ public class ModItems {
 	// Plants
 	public static Item NETTLE = registerBlockItem("nettle", ModBlocks.NETTLE);
 	public static Item LARGE_NETTLE = registerBlockItem("large_nettle", ModBlocks.LARGE_NETTLE);
+	public static Item FOXGLOVE = registerBlockItem("foxglove", ModBlocks.FOXGLOVE);
+
 	public static Item CLOVERS = registerBlockItem("clovers", ModBlocks.CLOVERS);
+
 
 	public static void register() {
 		Glade.LOGGER.debug("Registering ModItems!");

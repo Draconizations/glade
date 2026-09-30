@@ -19,6 +19,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
 		translationBuilder.add(ModBlocks.NETTLE, "Nettle");
 		translationBuilder.add(ModBlocks.LARGE_NETTLE, "Large Nettle");
 		translationBuilder.add(ModBlocks.CLOVERS, "Clovers");
+		translationBuilder.add(ModBlocks.FOXGLOVE, "Foxglove");
 
 		translationBuilder.add("itemGroup.glade.main_group", "Glade");
 	}

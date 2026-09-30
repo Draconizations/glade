@@ -16,6 +16,8 @@ public class ModModelProvider extends FabricModelProvider {
 	public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
 		blockStateModelGenerator.createCrossBlockWithDefaultItem(ModBlocks.NETTLE, BlockModelGenerators.TintState.TINTED);
 		blockStateModelGenerator.createDoublePlant(ModBlocks.LARGE_NETTLE, BlockModelGenerators.TintState.TINTED);
+		blockStateModelGenerator.createDoublePlant(ModBlocks.FOXGLOVE, BlockModelGenerators.TintState.NOT_TINTED);
+
 		blockStateModelGenerator.createFlowerBed(ModBlocks.CLOVERS);
 	}
 

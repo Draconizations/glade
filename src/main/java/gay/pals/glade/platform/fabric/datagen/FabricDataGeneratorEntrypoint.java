@@ -10,10 +10,15 @@ public class FabricDataGeneratorEntrypoint implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator generator) {
 		final FabricDataGenerator.Pack pack = generator.createPack();
-		pack.addProvider((FabricDataOutput output) -> new ModBlockLootProvider(output, generator.getRegistries()));
-		pack.addProvider((FabricDataOutput output) -> new ModBlockTagProvider(output, generator.getRegistries()));
-		pack.addProvider((FabricDataOutput output) -> new ModEnglishLangProvider(output, generator.getRegistries()));
 		pack.addProvider(ModModelProvider::new);
+
+		pack.addProvider((FabricDataOutput output) -> new ModRecipeProvider(output, generator.getRegistries()));
+		pack.addProvider((FabricDataOutput output) -> new ModBlockLootProvider(output, generator.getRegistries()));
+
+		pack.addProvider((FabricDataOutput output) -> new ModItemTagProvider(output, generator.getRegistries()));
+		pack.addProvider((FabricDataOutput output) -> new ModBlockTagProvider(output, generator.getRegistries()));
+
+		pack.addProvider((FabricDataOutput output) -> new ModEnglishLangProvider(output, generator.getRegistries()));
 	}
 }
 //?}
