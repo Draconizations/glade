@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:noise",
+      "noise": "glade:variety_2",
+      "xz_scale": 2.5,
+      "y_scale": 0
+    }
+  }
+}

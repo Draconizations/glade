@@ -6,8 +6,8 @@
       "condition": {
         "type": "lithostitched:sample_density",
         "density_function": "glade:vegetation",
-        "min_inclusive": 0.2,
-        "max_inclusive": 1
+        "min_inclusive": 0,
+        "max_inclusive": 0.2
       }
     },
     {
@@ -15,8 +15,8 @@
       "condition": {
         "type": "lithostitched:sample_density",
         "density_function": "glade:variety",
-        "min_inclusive": -1,
-        "max_inclusive": 0.3
+        "min_inclusive": 0.4,
+        "max_inclusive": 1
       }
     },
     {
@@ -25,12 +25,16 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 12,
-            "weight": 9
+            "data": 0,
+            "weight": 4
           },
           {
-            "data": 13,
-            "weight": 1
+            "data": 1,
+            "weight": 5
+          },
+          {
+            "data": 2,
+            "weight": 3
           }
         ]
       }
@@ -45,6 +49,18 @@
     {
       "type": "minecraft:heightmap",
       "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
     },
     {
       "type": "minecraft:biome"
