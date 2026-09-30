@@ -21,6 +21,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
 		translationBuilder.add(ModBlocks.CLOVERS, "Clovers");
 		translationBuilder.add(ModBlocks.FOXGLOVE, "Foxglove");
 
+		translationBuilder.add("biome.glade.lowlands", "Lowlands");
 		translationBuilder.add("itemGroup.glade.main_group", "Glade");
 	}
 }
