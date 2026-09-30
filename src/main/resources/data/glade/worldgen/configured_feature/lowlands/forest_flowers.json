@@ -112,7 +112,7 @@
       },
       {
         "feature": {
-          "type": "minecraft:no_bonemeal_flower",
+          "type": "minecraft:random_patch",
           "config": {
             "feature": {
               "feature": {
@@ -121,7 +121,10 @@
                   "to_place": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "minecraft:lily_of_the_valley"
+                      "Name": "glade:foxglove",
+                      "Properties": {
+                        "half": "lower"
+                      }
                     }
                   }
                 }

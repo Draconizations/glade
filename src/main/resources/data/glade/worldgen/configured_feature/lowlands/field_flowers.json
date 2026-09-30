@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "glade:poppy",
+        "placement": []
+      },
+      {
+        "feature": "glade:cornflower",
+        "placement": []
+      },
+      {
+        "feature": "glade:dandelion",
+        "placement": []
+      }
+    ]
+  }
+}

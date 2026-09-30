@@ -1,0 +1,23 @@
+{
+  "feature": "glade:lowlands/trees_birch_dense",
+  "placement": [
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "glade:variety",
+        "min_inclusive": 0.3,
+        "max_inclusive": 1
+      }
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:sample_density",
+        "density_function": "glade:variety_2",
+        "min_inclusive": 0,
+        "max_inclusive": 1
+      }
+    }
+  ]
+}

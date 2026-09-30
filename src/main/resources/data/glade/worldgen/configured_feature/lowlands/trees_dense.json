@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:composite",
+  "config": {
+    "features": [
+      "glade:lowlands/trees_birch_dense",
+      "glade:lowlands/trees_oak_dense",
+      "glade:lowlands/trees_pine_dense"
+    ],
+    "placement_type": "never_cancel"
+  }
+}

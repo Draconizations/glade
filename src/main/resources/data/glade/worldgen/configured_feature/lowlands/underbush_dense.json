@@ -12,31 +12,7 @@
       {
         "chance": 0.05,
         "feature": {
-          "feature": "minecraft:patch_tall_grass",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.02,
-        "feature": {
-          "feature": {
-            "config": {
-              "features": [
-                {
-                  "chance": 0.6,
-                  "feature": {
-                    "feature": "minecraft:forest_flowers",
-                    "placement": []
-                  }
-                }
-              ],
-              "default": {
-                "feature": "glade:foxglove",
-                "placement": []
-              }
-            },
-            "type": "minecraft:random_selector"
-          },
+          "feature": "glade:lowlands/forest_flowers",
           "placement": []
         }
       },
