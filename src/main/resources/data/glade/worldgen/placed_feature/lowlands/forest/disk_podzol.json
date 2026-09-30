@@ -1,5 +1,5 @@
 {
-  "feature": "glade:floor/disk_podzol",
+  "feature": "glade:disk_podzol",
   "placement": [
     {
       "type": "lithostitched:condition",

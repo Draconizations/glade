@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:composite",
+  "config": {
+    "features": [
+      "minecraft:birch_bees_002",
+      "glade:lowlands/underbush_sparse"
+    ],
+    "placement_type": "cancel_on_failure"
+  }
+}

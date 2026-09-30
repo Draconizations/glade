@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:composite",
+  "config": {
+    "features": [
+      "minecraft:pine_checked",
+      "glade:lowlands/underbush_sparse"
+    ],
+    "placement_type": "cancel_on_failure"
+  }
+}

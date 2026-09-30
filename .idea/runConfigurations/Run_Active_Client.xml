@@ -3,7 +3,9 @@
     <ExternalSystemSettings>
       <option name="env">
         <map>
-          <entry key="__NV_PRIME_RENDER_OFFLOAD" value="1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia" />
+          <entry key=" __GLX_VENDOR_LIBRARY_NAME" value="nvidia" />
+          <entry key=" __VK_LAYER_NV_optimus" value="NVIDIA_only" />
+          <entry key="__NV_PRIME_RENDER_OFFLOAD" value="1" />
         </map>
       </option>
       <option name="executionName" />

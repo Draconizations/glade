@@ -1,5 +1,5 @@
 {
-  "feature": "glade:flower/clovers",
+  "feature": "glade:clovers",
   "placement": [
     {
       "type": "lithostitched:condition",
@@ -18,7 +18,7 @@
     },
     {
       "type": "minecraft:rarity_filter",
-      "chance": 5
+      "chance": 24
     },
     {
       "type": "minecraft:in_square"

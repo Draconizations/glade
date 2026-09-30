@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:composite",
+  "config": {
+    "features": [
+      "glade:trees_oak",
+      "glade:lowlands/underbush_sparse"
+    ],
+    "placement_type": "cancel_on_failure"
+  }
+}

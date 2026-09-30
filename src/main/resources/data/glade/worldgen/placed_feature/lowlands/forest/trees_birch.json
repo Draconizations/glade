@@ -1,5 +1,5 @@
 {
-  "feature": "glade:trees_birch",
+  "feature": "glade:lowlands/trees_birch_dense",
   "placement": [
     {
       "type": "lithostitched:condition",
