@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "glade:trees/birch",
+    "default": "minecraft:birch_bees_002",
     "features": []
   }
 }
